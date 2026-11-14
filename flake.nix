@@ -104,7 +104,12 @@
 
       devShells.${system} = {
         atcoder = mkSiteShell [
-          pkgs.rust-bin.stable."1.89.0".default
+          (pkgs.rust-bin.stable."1.89.0".default.override {
+            extensions = [
+              "rust-src"
+              "rust-analyzer"
+            ];
+          })
           newCommand
           fetchCommand
           ckCommand
