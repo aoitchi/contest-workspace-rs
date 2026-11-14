@@ -1,0 +1,10 @@
+[package]
+name = "bundle-rs"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.98"
+
+[dependencies]
+syn = { version = "2", features = ["full", "visit", "visit-mut"] }
+proc-macro2 = "1"
+quote = "1"

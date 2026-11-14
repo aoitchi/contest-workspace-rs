@@ -1,0 +1,8 @@
+# Nix
+.direnv/
+
+# Rust
+target/
+
+# Oj
+samples/
