@@ -3,7 +3,7 @@
 version = 4
 
 [[package]]
-name = "atcoder-abc482"
+name = "atcoder-abc319"
 version = "0.0.0"
 dependencies = [
  "cplib",
@@ -12,12 +12,13 @@ dependencies = [
 ]
 
 [[package]]
-name = "atcoder-abc483"
+name = "atcoder-abc484"
 version = "0.0.0"
 dependencies = [
  "cplib",
  "itertools",
  "proconio",
+ "rustc-hash",
 ]
 
 [[package]]
@@ -76,6 +77,12 @@ checksum = "1fbf4db142a473a8d80c26bbf18454ed458bf8d26c8219c331daecfdbd079001"
 dependencies = [
  "proc-macro2",
 ]
+
+[[package]]
+name = "rustc-hash"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "08d43f7aa6b08d49f382cde6a7982047c3426db949b1424bc4b7ec9ae12c6ce2"
 
 [[package]]
 name = "syn"
